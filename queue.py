@@ -1,4 +1,8 @@
-# queue
+"""
+queue based on linked list
+"""
+
+
 class Node:
     
     def __init__(self, node, next_node):

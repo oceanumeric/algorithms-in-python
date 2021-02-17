@@ -1,9 +1,11 @@
-# when you try inserting an element closer to or at the beginning of the list, 
-# the average time complexity will grow along with the size of the list: O(n).
+"""
+when you try inserting an element closer to or at the beginning of the list, 
+the average time complexity will grow along with the size of the list: O(n).
 
-# collections.deque uses an implementation of a linked list in 
-# which you can access, insert, or remove elements from the 
-# beginning or end of a list with constant O(1) performance.
+collections.deque uses an implementation of a linked list in 
+which you can access, insert, or remove elements from the 
+beginning or end of a list with constant O(1) performance.
+"""
 
 from collections import deque
 

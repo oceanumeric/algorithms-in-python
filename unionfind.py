@@ -1,11 +1,15 @@
-# unionfind and percolation
-# union in terms of set, we don't care the direction
-# or the specific path connection is ingorned
-#{{1}, {3, 4, 5}, {6, 7, 8}}, we have three unions
-# again, we give them a new structure by linking them together
-# this is so called 'data strucutre' with the link
-# algorithm does not make sense without the design of data sctucture
-# implementation 1 
+"""
+unionfind and percolation
+union in terms of set, we don't care the direction
+or the specific path connection is ingorned
+{{1}, {3, 4, 5}, {6, 7, 8}}, we have three unions
+again, we give them a new structure by linking them together
+this is so called 'data strucutre' with the link
+algorithm does not make sense without the design of data sctucture
+implementation 1 
+"""
+
+
 class UF:
 
     def __init__(self, n):

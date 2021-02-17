@@ -1,5 +1,4 @@
-# bag, queue and stack
-# bag, queue and stack is based on linked list
+# bag based on linked list
 class Node:
 
     def __init__(self, node, next_node):
