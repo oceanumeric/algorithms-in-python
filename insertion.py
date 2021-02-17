@@ -34,3 +34,5 @@ if __name__ == "__main__":
     
 
 # reflection: still two loops, but we sort array by inserting
+# it is also very impportant to know that insertion sort is stalbe
+# but selection sort is not stable
