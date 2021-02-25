@@ -36,7 +36,7 @@ class Bag:
         return self.n
 
     def is_empty(self):
-        return self.firsst is None
+        return self.first is None
     
     def add(self, item):
         oldfirst = self.first
