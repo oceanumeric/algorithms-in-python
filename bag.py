@@ -28,7 +28,7 @@ class Bag:
 
     def __str__(self):
         return " ".join(str(i) for i in self)
-    
+
     def __iter__(self):
         return LinkIterator(self.first)
 
@@ -37,12 +37,12 @@ class Bag:
 
     def is_empty(self):
         return self.first is None
-    
+
     def add(self, item):
         oldfirst = self.first
         self.first = Node(item, oldfirst)
         self.n += 1
-    
+
 
 if __name__ == '__main__':
     inputtext = 'to be or not to - be - - that - - - is'
@@ -53,5 +53,3 @@ if __name__ == '__main__':
     for i in bag:
         print(i)
     print(bag)
-
-
