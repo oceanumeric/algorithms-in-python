@@ -9,7 +9,9 @@ Implement algorithms in Python based on the book by Sedgewick and the online cou
 
 * Searching: binary search and Hash tables.
 
-* Tress and Tree Algorithms
+* Trees: binary trees and binary search tress. 
+
+* Graphs: depth first and breadth first search, shortest paths and minimal spanning tress.
 
 ## References
 
