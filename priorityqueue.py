@@ -8,6 +8,10 @@ parent of the node at position k is a heap at position k // 2
 4     5   6    7     (for instace: 5 // 2 = 2 ) 5 is a child and 2 is parent
 The key to understanding priority queue is about the index of binary heap tree
 and numerical relationship between parent and child
+
+A better implementation is to use Binary Heap which is typically used to 
+implement priority queue. Note that Python provides heapq in library also.
+REMARK: priority queue is equivalent to heap
 """
 
 
