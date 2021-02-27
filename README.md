@@ -19,3 +19,5 @@ Implement algorithms in Python based on the book by Sedgewick and the online cou
 
 * Problem Solving with Algorithms and Data Structures with Python by [Brad Miller and David Ranum, Luther College](https://runestone.academy/runestone/books/published/pythonds/index.html)
 
+* Introduction to the A* Algorithm by [Amit Patel](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+
