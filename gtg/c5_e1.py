@@ -39,6 +39,14 @@ class DynamicArray:
         """Return new array with capacity c"""
         return (c * ctypes.py_object)()
     
+    def insert(self, k, value):
+        if self._n == self._capacity:
+            self._resize(2 * self._capacity)
+        for j in range(self._n, k, -1): 
+            self._A[j] = self._A[j-1]
+        self._A[k] = value
+        self._n += 1 
+    
     def __str__(self):
         return '[' + "".join(str(self._A[i]) for i in range(self._n)) + ']'
             
@@ -61,6 +69,7 @@ if __name__ == "__main__":
         print(f"Length: {a:2d}; Size in bytes: {b:4d}")
         da.append(2)
         print(da._capacity, da._n)
+    da.insert(3, 9)
     print(da)
-    print(da[3])
+    print(da[5])
     
